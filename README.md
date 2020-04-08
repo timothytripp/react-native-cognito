@@ -1,6 +1,6 @@
-# React Native : AWS Cognito Module 
+# React Native : AWS Cognito Module
 
-**Work in progress!**
+**Deprecated! This library is not actively developed. Check out [react-native-aws-cognito-js](http://github.com/AirLabsTeam/react-native-aws-cognito-js) instead.**
 
 `react-native-cognito` provides a [React Native](http://facebook.github.io/react-native/) module for integrating with [AWS Cognito](https://aws.amazon.com/cognito/).
 
@@ -117,12 +117,12 @@ import com.morcmarc.rctcognito.ReactCognitoPackage;
 
 public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
     ...
-    
+
     // declare package
     private ReactCognitoPackage mReactCognitoPackage;
 
     ...
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -154,3 +154,13 @@ You might have to add the following permission to your `AndroidManifest.xml`:
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
 ```
+
+## Contributors
+
+- [Sunny Gurnani](https://github.com/SunnyGurnani)
+
+## License
+
+This software is licensed under the MIT License.
+
+React and React Native are BSD licensed. Facebook also provide an additional patent grant.
